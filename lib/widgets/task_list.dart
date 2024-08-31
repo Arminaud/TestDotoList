@@ -67,7 +67,7 @@ class TaskList extends StatelessWidget {
                   ),
                   SizedBox(height: 10,),
                   Text(
-                    "Aucune tâche trouvée ...",
+                    "Aucune tâche trouvée Arminaud...",
                     style: TextStyle(
                       fontSize: 16
                     ),
