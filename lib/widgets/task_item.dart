@@ -139,14 +139,14 @@ class TaskItem extends StatelessWidget {
               _showTaskDialog(context, task);
               //taskProvider.deleteTask(task.id);
             },
+            highlightColor: Colors.yellow,
             splashColor: Colors.green,
             child: Container(
               height: 65,
               width: 45,
-              color: MyColors.dangerColor,
               child: const Icon(
                 Icons.delete_outline_rounded,
-                color: MyColors.secondaryColor,
+                color: MyColors.dangerColor,
               ),
             ),
           ),

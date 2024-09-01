@@ -59,7 +59,7 @@ class TaskProvider with ChangeNotifier {
       title: title,
       description: description,
     );
-    _tasks.add(newTask);
+    _tasks.insert(0, newTask);
     await saveTasks();
     notifyListeners();
   }
